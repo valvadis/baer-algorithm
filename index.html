@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Jakub Książek, Daniel Hornik">
+    <meta name="description" content="Symulacja działania algorytmu Baera">
+
+    <title>Algorytm Baera</title>
+
+    <link href="template/bootstrap.css" rel="stylesheet">
+    <link href="template/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="template/cover.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="inner cover">
+                <h1 class="cover-heading">Symulacja działania algorytmu Baera</h1>
+                <h2>Praca zaliczeniowa</h2>
+                <div>
+                    <svg id="graph" width="360" height="320">
+                        <defs>
+                            <marker id="arrow" markerWidth="4" markerHeight="4" refx="16" refy="2" orient="auto" markerUnits="strokeWidth">
+                                <path d="M4,0 L4,4 L0,2 z" fill="black" />
+                            </marker>
+                        </defs>
+                    </svg>
+                    <table id="task-table" class="table table-bordered table-responsive">
+                        <tr id="p1">
+                            <td style="width: 30px;">P<sub>1</sub></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr id="p2">
+                            <td>P<sub>2</sub></td>
+                            <td colspan="2"></td>
+                            <td colspan="2"></td>
+                            <td colspan="2"></td>
+                            <td colspan="2"></td>
+                            <td colspan="2"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="task-button" class="btn-wrapper">
+                    <button type="button" class="baer-button btn btn-block btn-default text-uppercase">Prezentuj
+                        algorytm
+                    </button>
+                    <span id="baer_equal" style="display: none;">C<sub>max</sub> = <span id="c_max"></span></span>
+                </div>
+            </div>
+            <div class="mastfoot">
+                <div class="inner">
+                    <p>Created by <a href="mailto:jakub_ksiazek@o2.pl">Daniel Hornik</a>, <a href="mailto:jakub_ksiazek@o2.pl">Jakub Książek</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobile-detect">
+    <p>Niestety nasza strona nie obsługuje rozdzielczości mniejszych niż 380px, spróbuj odwrócić telefon.</p>
+</div>
+<script src="template/jquery.js"></script>
+<script src="template/bootstrap.js"></script>
+<script src="template/ie10-viewport-bug-workaround.js"></script>
+<script src="engine.js"></script>
+</body>
+</html>
