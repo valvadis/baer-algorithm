@@ -15,16 +15,15 @@ procesora P1 (szybszego) i P2. Przebieg algorytmu Baera jest następujący.
 
 # Zapis w postaci ciągu kroków:
 
-1. Określ poziomy zadań, licznik zadań q:=n, k1 := k2 := 0
-2. Przydziel dostępne w chwili k1 zadanie o najwyższym poziomie do procesora P1, q:=q-1,
-k1 := k1 + 1
+1. Określ poziomy zadań, licznik zadań q := n, k(1) := k(2) := 0
+2. Przydziel dostępne w chwili k(1) zadanie o najwyższym poziomie do procesora P(1), q := q - 1, 
+k(1) := k(1) + 1
 3. Jeśli są zadania dostępne w chwili k2, to przydziel jedno z nich o najwyższym poziomie
-do procesora P2, q:=q-1, k2:=k2 + 2
-4. Jeśli są zadania dostępne w chwili k1, to przydziel zadanie o najwyższym poziomie do
-procesora P1, q:=q-1, k1:=k1+1. Jeśli q = 1, to przejdź do kroku 5, w przeciwnym
+do procesora P(2), q := q - 1, k(2) := k(2) + 2
+4. Jeśli są zadania dostępne w chwili k(1), to przydziel zadanie o najwyższym poziomie do
+procesora P(1), q := q - 1, k(1) := k(1) + 1. Jeśli q = 1, to przejdź do kroku 5, w przeciwnym
 przypadku powtórz krok 2
-5. Przydziel ostatnie zadania do procesora P1, C*
-max := k1 + 1
+5. Przydziel ostatnie zadania do procesora P(1), C*max := k1 + 1
 
 > Złożoność obliczeniowa tego algorytmu jest O(n), gdyż każde zadania jest rozpatrywane tylko
 raz, a czas z tym związany jest stały. 
