@@ -2,7 +2,7 @@
 
 # Założenia:
 
-* w systemie są dwa procesory o współczynnikach prędkości b_1 = 2, b2 = 1
+* w systemie są dwa procesory o współczynnikach prędkości b(1) = 2, b(2) = 1
 * standardowe czas wykonywania zadań τj = 2, j = 1, 2, …, n 
 * zbiór zadań tworzy antydrzewo
 
