@@ -1,5 +1,4 @@
 # Baer'a algorithm
-***
 
 # Założenia:
 
