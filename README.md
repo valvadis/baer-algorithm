@@ -10,7 +10,7 @@
 * standard time of task execution is τj = 2, j ∈ ℕ
 * input graph of tasks is anti-tree
 
-###Algorithm description
+### Algorithm description
 The main assumption of this algorithm is that for specific set of tasks and processors in optimal solution 
 may appear only pause in work of processor with smaller speed rate. Let's assume that k<sub>1</sub>, 
 k<sub>2</sub> will respectively time of work  processors P<sub>1</sub> and P2<sub>2</sub>. Parameters
