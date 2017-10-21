@@ -37,7 +37,7 @@ otherwise go to step 2.
 
 ### Założenia:
 
-* w systemie są dwa procesory o współczynnikach prędkości b<sub>1</sub> = 2, b<sub>2</sub>
+* w systemie są dwa procesory o współczynnikach prędkości b<sub>1</sub> = 2, b<sub>2</sub> = 1
 * standardowe czas wykonywania zadań τj = 2, j = 1, 2, …, n 
 * zbiór zadań tworzy antydrzewo
 
